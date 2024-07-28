@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    position:static;
+}
+.face{
+    width: 900px;
+    height: 900px;
+    border: 2px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   background-color: antiquewhite;
+}
+
+.leye{
+   width: 200px;
+   height:200px; 
+   border-radius: 50%;
+   border: 2px solid;
+   position: absolute;
+   top: 150px;
+   left: 950px;
+   background-color:fuchsia;
+}
+
+.reye{
+    width: 200px;
+    height:200px; 
+    border-radius: 50%;
+    border: 2px solid;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    background-color:fuchsia;
+ }
+
+ .mouth {
+    width: 200px;
+    height: 100px;
+    background-color:palevioletred;
+    border-radius: 250px;
+    position: absolute;
+    bottom: 100px;
+    left: 800px;
+    transform: translateX(-50%);
+    border:solid;
+    
+}
+.moustache{
+    width: 200px;
+    height: 100px;
+    background-color:palevioletred;
+    border-radius: 250px;
+    position: absolute;
+    bottom: 200px;
+    left: 800px;
+    transform: translateX(-50%);
+    border:solid;
+
+}
